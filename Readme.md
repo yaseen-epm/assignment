@@ -38,5 +38,4 @@ The endpoints are live and can be accessed publicly (no authentication). These a
 ### FE URL (Task 3.2)
   URL(Product list API integrated): https://dxgbn3tm2xu3v.cloudfront.net/
 
-- **Purpose**: Retrieve a list (array) of products  
-- **URL**:  
+ 

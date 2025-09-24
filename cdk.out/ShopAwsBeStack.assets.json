@@ -1,0 +1,34 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "53e7c8496f109ad82538aba1badfbaa71a326aaea6ca19502ce10b20790bc357": {
+      "displayName": "ShopLambda/lambda-function/Code",
+      "source": {
+        "path": "asset.53e7c8496f109ad82538aba1badfbaa71a326aaea6ca19502ce10b20790bc357",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region-60dfc95f": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "53e7c8496f109ad82538aba1badfbaa71a326aaea6ca19502ce10b20790bc357.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "aa08479172fb4a0f6ac4785029506fc1e7ef3ee6cd80e29d75ea90931d73beb1": {
+      "displayName": "ShopAwsBeStack Template",
+      "source": {
+        "path": "ShopAwsBeStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-d4617e13": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "aa08479172fb4a0f6ac4785029506fc1e7ef3ee6cd80e29d75ea90931d73beb1.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
