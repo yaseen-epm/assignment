@@ -31,10 +31,9 @@ The endpoints are live and can be accessed publicly (no authentication). These a
 ## 🔗 API Endpoints
 
 ### Get Products List (Task 3.1)
-  lambda function URL for getProductsList : https://y1n1p58vl4.execute-api.us-east-1.amazonaws.com/dev/products/
-
+  lambda function URL for getProductsList :https://boaefrida8.execute-api.us-east-1.amazonaws.com/dev/products
 ### Get Product by ID (Task 3.2)
-  lambda function URL for getProductsById : https://y1n1p58vl4.execute-api.us-east-1.amazonaws.com/dev/products/2
+  lambda function URL for getProductsById : https://boaefrida8.execute-api.us-east-1.amazonaws.com/dev/products/{$PRODUCTID}
 ### FE URL (Task 3.2)
   URL(Product list API integrated): https://dxgbn3tm2xu3v.cloudfront.net/
 
